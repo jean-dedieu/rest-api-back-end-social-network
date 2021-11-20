@@ -4,24 +4,24 @@ API Routes ⚽⚽
 
    / 
        
-       list of academies
+       list of academies, always reachable
 
 
  /:uid/academies
  
-       List of player for a selected Academy
+       List of player for a selected Academy, Always reachable
 
 /authenticate
 
-      Sign Up and Login Forms
+      Sign Up and Login Forms, Only Unauthenticated
       
 
 /players/new 
 
-       Add new player form
+       Add new player form, Only authenticated
 
 
 /players/:pid
 
-      Update Player Form
+      Update Player Form, Only authenticated
 
