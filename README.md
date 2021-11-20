@@ -2,13 +2,26 @@
 
 API Routes
 
-       / list of academies
+   / 
+       
+       list of academies
 
-       /:uid/academies List of player for a selected Academy
 
-      /authenticate Sign Up and Login Forms
+ /:uid/academies
+ 
+       List of player for a selected Academy
 
-     /players/new Add new player form
+/authenticate
 
-     /players/:pid  Update Player Form
+      Sign Up and Login Forms
+      
+
+/players/new 
+
+       Add new player form
+
+
+/players/:pid
+
+      Update Player Form
 
